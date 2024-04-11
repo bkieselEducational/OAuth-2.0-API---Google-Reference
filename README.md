@@ -17,7 +17,10 @@
 ## Google OAuth 2.0 Parameters
 
 **scope**:
+
 `https://www.googleapis.com/auth/userinfo.email`
+
 `https://www.googleapis.com/auth/userinfo.profile`
+
 `openid`
 
