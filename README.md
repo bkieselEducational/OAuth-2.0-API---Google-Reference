@@ -16,7 +16,7 @@
 
 ## Google OAuth 2.0 Parameters
 
-**scope**:
+### scope: The legal values for this parameter are typically specific to the API vendor. 
 
 `https://www.googleapis.com/auth/userinfo.email`
 
