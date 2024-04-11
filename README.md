@@ -1,5 +1,5 @@
 [<-- BACK](https://github.com/bkieselEducational/OAuth-2.0-from-Scratch)
-# OAuth-2.0-API---Google-Reference
+# OAuth 2.0 API: Google Reference
 
 ## Google OAuth 2.0 Endpoints
 1. **Google OAuth Authorization Endpoint:** `https://accounts.google.com/o/oauth2/auth` With the appropriate parameters, this URL will get us to the user sign-in<br>
