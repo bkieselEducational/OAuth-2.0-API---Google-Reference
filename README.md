@@ -8,7 +8,7 @@
 
 3. Google Revocation Endpoint for Access and Refresh Tokens: https: //oauth2.googleapis.com/revoke # This endpoint allows us to manually expire an Access Token and request a new one along with a new Refresh Token.
 
-4. Google JWKS (JSON Web Key Set) Endpoint: https: //www.googleapis.com/oauth2/v3/certs # This endpoint is used to retrieve the JSON Web Key Set, which contains the public keys that can be used to verify the signature of JWT tokens issued by Google. 
+4. Google JWKS (JSON Web Key Set) Endpoint: https: //googleapis.com/oauth2/v3/certs # This endpoint is used to retrieve the JSON Web Key Set, which contains the public keys that can be used to verify the signature of JWT tokens issued by Google. 
 
 5. Google Userinfo Endpoint: https: //openidconnect.googleapis.com/v1/userinfo # This endpoint is used to retrieve information about the authenticated user. It returns claims about the user in the payload of a JWT.
 
