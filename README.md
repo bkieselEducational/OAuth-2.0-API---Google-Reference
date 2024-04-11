@@ -13,3 +13,11 @@
 5. **Google Userinfo Endpoint:** `https://openidconnect.googleapis.com/v1/userinfo` This endpoint is used to retrieve information about the authenticated user. It returns claims about the user in the payload of a JWT.
 
 6. **Google OpenID Connect Discovery Document:** `https://accounts.google.com/.well-known/openid-configuration` This is a metadata document that contains important information about the OpenID Connect provider, including URLs for various endpoints.
+
+## Google OAuth 2.0 Parameters
+
+**scope**:
+`https://www.googleapis.com/auth/userinfo.email`
+`https://www.googleapis.com/auth/userinfo.profile`
+`openid`
+
