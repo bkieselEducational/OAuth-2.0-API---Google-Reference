@@ -4,9 +4,9 @@
 ## Google OAuth 2.0 Endpoints
 1. **Google OAuth Authorization Endpoint:** `https://accounts.google.com/o/oauth2/auth` With the appropriate parameters, this URL will get us to the user sign-in<br>
 
-2. **Google Code Exchange for Auth Token Endpoint:** `https://oauth2.googleapis.com/token` This is the endpoint we will return our 'code' to, after the user logs into Google, to exchange it for Access Token.
+2. **Google Code Exchange for Access Token Endpoint:** `https://oauth2.googleapis.com/token` This is the endpoint we will return our 'code' to, after the user logs into Google, to exchange it for an Access Token.
 
-3. **Google Revocation Endpoint for Access and Refresh Tokens:** `https://oauth2.googleapis.com/revoke` This endpoint allows us to manually expire an Access Token and request a new one along with a new Refresh Token.
+3. **Google Revocation Endpoint for Access and Refresh Tokens:** `https://oauth2.googleapis.com/revoke` This endpoint allows us to manually expire an Access Token or a Refresh Token.
 
 4. **Google JWKS (JSON Web Key Set) Endpoint:** `https://googleapis.com/oauth2/v3/certs` This endpoint is used to retrieve the JSON Web Key Set, which contains the public keys that can be used to verify the signature of JWT tokens issued by Google. 
 
