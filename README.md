@@ -2,7 +2,7 @@
 # OAuth-2.0-API---Google-Reference
 
 ## Google OAuth 2.0 Endpoints
-1. <code style="color : red;font-weight : bold;">Google OAuth Authorization Endpoint:</code> `https://accounts.google.com/o/oauth2/auth` # With the appropriate parameters, this URL will get us to the user sign-in<br>
+1. <code style="color : orangered">Google OAuth Authorization Endpoint:</code> `https://accounts.google.com/o/oauth2/auth` # With the appropriate parameters, this URL will get us to the user sign-in<br>
 
 2. **Google Code Exchange for Auth Token Endpoint:** `https://oauth2.googleapis.com/token` # This is the endpoint we will return our 'code' to, after the user logs into Google, to exchange it for Access Token.
 
