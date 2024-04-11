@@ -32,3 +32,5 @@
 
 * `openid` - This indicates that we will request an OpenID Connect Token!
 
+## Google Official Documentation:
+[Google OAuth 2.0 for Web Server Applications](https://developers.google.com/identity/protocols/oauth2/web-server)
